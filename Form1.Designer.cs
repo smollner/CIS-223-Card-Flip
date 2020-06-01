@@ -45,6 +45,9 @@
             this.aceSpadeBack = new System.Windows.Forms.PictureBox();
             this.aceSpadeFace = new System.Windows.Forms.PictureBox();
             this.aceSpadeName = new System.Windows.Forms.Label();
+            this.outro = new System.Windows.Forms.Label();
+            this.exit = new System.Windows.Forms.Label();
+            this.reset = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.jokerBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.jokerFace)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.twoDiamondsface)).BeginInit();
@@ -230,6 +233,49 @@
             this.aceSpadeName.TabIndex = 2;
             this.aceSpadeName.Text = "Ace of Spades";
             // 
+            // outro
+            // 
+            this.outro.AutoSize = true;
+            this.outro.BackColor = System.Drawing.Color.Transparent;
+            this.outro.Font = new System.Drawing.Font("Playbill", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.outro.ForeColor = System.Drawing.Color.FloralWhite;
+            this.outro.Location = new System.Drawing.Point(220, 18);
+            this.outro.Name = "outro";
+            this.outro.Size = new System.Drawing.Size(337, 65);
+            this.outro.TabIndex = 0;
+            this.outro.Text = "Was this your card?";
+            this.outro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // exit
+            // 
+            this.exit.AutoSize = true;
+            this.exit.BackColor = System.Drawing.Color.MidnightBlue;
+            this.exit.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exit.Font = new System.Drawing.Font("Playbill", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.exit.ForeColor = System.Drawing.Color.FloralWhite;
+            this.exit.Location = new System.Drawing.Point(82, 328);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(255, 67);
+            this.exit.TabIndex = 0;
+            this.exit.Text = "Yes. I\'m done.";
+            this.exit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // reset
+            // 
+            this.reset.AutoSize = true;
+            this.reset.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.reset.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.reset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.reset.Font = new System.Drawing.Font("Playbill", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.reset.ForeColor = System.Drawing.Color.FloralWhite;
+            this.reset.Location = new System.Drawing.Point(442, 328);
+            this.reset.Name = "reset";
+            this.reset.Size = new System.Drawing.Size(256, 67);
+            this.reset.TabIndex = 0;
+            this.reset.Text = "No. Try again.";
+            this.reset.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -237,6 +283,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.reset);
+            this.Controls.Add(this.exit);
+            this.Controls.Add(this.outro);
             this.Controls.Add(this.aceSpadeName);
             this.Controls.Add(this.aceSpadeFace);
             this.Controls.Add(this.aceSpadeBack);
@@ -289,6 +338,9 @@
         private System.Windows.Forms.PictureBox aceSpadeBack;
         private System.Windows.Forms.PictureBox aceSpadeFace;
         private System.Windows.Forms.Label aceSpadeName;
+        private System.Windows.Forms.Label outro;
+        private System.Windows.Forms.Label exit;
+        private System.Windows.Forms.Label reset;
     }
 }
 
