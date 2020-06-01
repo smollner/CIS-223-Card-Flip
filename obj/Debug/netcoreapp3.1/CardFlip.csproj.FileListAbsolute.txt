@@ -1,0 +1,16 @@
+C:\Users\Sarah\source\repos\CardFlip\bin\Debug\netcoreapp3.1\CardFlip.exe
+C:\Users\Sarah\source\repos\CardFlip\bin\Debug\netcoreapp3.1\CardFlip.deps.json
+C:\Users\Sarah\source\repos\CardFlip\bin\Debug\netcoreapp3.1\CardFlip.runtimeconfig.json
+C:\Users\Sarah\source\repos\CardFlip\bin\Debug\netcoreapp3.1\CardFlip.runtimeconfig.dev.json
+C:\Users\Sarah\source\repos\CardFlip\bin\Debug\netcoreapp3.1\CardFlip.dll
+C:\Users\Sarah\source\repos\CardFlip\bin\Debug\netcoreapp3.1\CardFlip.pdb
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.csprojAssemblyReference.cache
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.Form1.resources
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.Properties.Resources.resources
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.csproj.GenerateResource.cache
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.AssemblyInfoInputs.cache
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.AssemblyInfo.cs
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.dll
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.pdb
+C:\Users\Sarah\source\repos\CardFlip\obj\Debug\netcoreapp3.1\CardFlip.genruntimeconfig.cache

@@ -82,6 +82,7 @@
             this.jokerBack.Size = new System.Drawing.Size(103, 147);
             this.jokerBack.TabIndex = 1;
             this.jokerBack.TabStop = false;
+            this.jokerBack.Click += new System.EventHandler(this.jokerBack_Click);
             // 
             // jokerFace
             // 
@@ -124,6 +125,7 @@
             this.twoDiamondsBack.Size = new System.Drawing.Size(103, 147);
             this.twoDiamondsBack.TabIndex = 1;
             this.twoDiamondsBack.TabStop = false;
+            this.twoDiamondsBack.Click += new System.EventHandler(this.twoDiamondsBack_Click);
             // 
             // twoDiamondsName
             // 
@@ -146,6 +148,7 @@
             this.tenClubsBack.Size = new System.Drawing.Size(103, 147);
             this.tenClubsBack.TabIndex = 1;
             this.tenClubsBack.TabStop = false;
+            this.tenClubsBack.Click += new System.EventHandler(this.tenClubsBack_Click);
             // 
             // tenClubsFace
             // 
@@ -188,6 +191,7 @@
             this.queenHeartsBack.Size = new System.Drawing.Size(103, 147);
             this.queenHeartsBack.TabIndex = 1;
             this.queenHeartsBack.TabStop = false;
+            this.queenHeartsBack.Click += new System.EventHandler(this.queenHeartsBack_Click);
             // 
             // queenHeartsName
             // 
@@ -210,6 +214,7 @@
             this.aceSpadeBack.Size = new System.Drawing.Size(103, 147);
             this.aceSpadeBack.TabIndex = 1;
             this.aceSpadeBack.TabStop = false;
+            this.aceSpadeBack.Click += new System.EventHandler(this.aceSpadeBack_Click);
             // 
             // aceSpadeFace
             // 
@@ -287,21 +292,21 @@
             this.Controls.Add(this.exit);
             this.Controls.Add(this.outro);
             this.Controls.Add(this.aceSpadeName);
-            this.Controls.Add(this.aceSpadeFace);
             this.Controls.Add(this.aceSpadeBack);
             this.Controls.Add(this.queenHeartsName);
             this.Controls.Add(this.queenHeartsBack);
             this.Controls.Add(this.queenHeartsFace);
             this.Controls.Add(this.tenClubsName);
-            this.Controls.Add(this.tenClubsFace);
             this.Controls.Add(this.tenClubsBack);
             this.Controls.Add(this.twoDiamondsName);
             this.Controls.Add(this.twoDiamondsBack);
             this.Controls.Add(this.twoDiamondsface);
             this.Controls.Add(this.jokerName);
-            this.Controls.Add(this.jokerFace);
             this.Controls.Add(this.jokerBack);
             this.Controls.Add(this.intro);
+            this.Controls.Add(this.jokerFace);
+            this.Controls.Add(this.tenClubsFace);
+            this.Controls.Add(this.aceSpadeFace);
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "cardTable";
