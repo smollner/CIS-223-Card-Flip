@@ -265,6 +265,7 @@
             this.exit.TabIndex = 0;
             this.exit.Text = "Yes. I\'m done.";
             this.exit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // reset
             // 
@@ -280,6 +281,7 @@
             this.reset.TabIndex = 0;
             this.reset.Text = "No. Try again.";
             this.reset.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // Form1
             // 

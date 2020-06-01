@@ -16,16 +16,7 @@ namespace CardFlip
         {
             InitializeComponent();
 
-            outro.Visible = false; //exit greeting is not visible
-
-            exit.Visible = false;
-            reset.Visible = false; //exit and reset buttons are not visible
-
-            jokerName.Visible = false;
-            twoDiamondsName.Visible = false;
-            tenClubsName.Visible = false;
-            queenHeartsName.Visible = false;
-            aceSpadeName.Visible = false; //all card names are not yet showing
+            Reset();
 
 
 
@@ -93,7 +84,7 @@ namespace CardFlip
         private void queenHeartsBack_Click(object sender, EventArgs e)
         {
             intro.Visible = false;
-            outro.Visible = false;
+            outro.Visible = true;
 
             queenHeartsBack.Visible = false;
 
@@ -124,5 +115,39 @@ namespace CardFlip
             exit.Visible = true;
             reset.Visible = true;
         }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.Exit();
+        }
+
+        private void reset_Click(object sender, EventArgs e)
+        {
+            Reset();
+        }
+
+        private void Reset()
+        {
+            outro.Visible = false; 
+            intro.Visible = true;
+
+            exit.Visible = false;
+            reset.Visible = false; 
+
+            jokerName.Visible = false;
+            twoDiamondsName.Visible = false;
+            tenClubsName.Visible = false;
+            queenHeartsName.Visible = false;
+            aceSpadeName.Visible = false;
+
+            jokerBack.Visible = true;
+            twoDiamondsBack.Visible = true;
+            tenClubsBack.Visible = true;
+            queenHeartsBack.Visible = true;
+            aceSpadeBack.Visible = true;
+
+        }
     }
 }
+
