@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kUQ063VTB6tJGuP/EcecEsBAPqmEUZyRxa9Qd6PwdBtgj8l8kXAq7Q3h1GfJAInvNLJBg1PSW6nfgyoP1JMrPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sarah\\source\\repos\\CardFlip\\CardFlip.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sarah\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
